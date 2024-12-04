@@ -1,0 +1,69 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-container{
+  overflow: auto;
+  height: 30rem;
+  height: 34.5rem;
+}
+
+/* for giving borders */
+
+table{
+  border: 1px solid black;
+
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+th{
+  position: sticky;
+  top: 0px;
+  color: white;
+}
+
+td{
+  min-width:300px;
+  text-align: justify;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+/* --------------- */
+
+
+
+  
+  .main-body {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1348px;
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .logo{
+    height: 2.5rem;
+    margin-right: 2rem;
+    width: auto;
+  }
+
+  .limited-lines {
+    max-height: auto; /* Adjust this value as needed to fit two lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+  }
